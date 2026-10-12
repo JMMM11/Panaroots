@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore PanaRoots cultural tour and experience concepts across Panama without unconfirmed prices or schedules.">
+  <title>Tours | PanaRoots</title>
+  <link rel="icon" type="image/png" href="../assets/media/favicon.png">
+  <link rel="stylesheet" href="../assets/css/vendor/all.min.css">
+  <link rel="stylesheet" href="../assets/css/panaroots.css">
+</head>
+<body data-page="tours" data-root="../" data-header="solid">
+  <div data-site-header></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <img src="../assets/media/Tours/panama.jpg" alt="Panamanian dancers celebrating in colorful traditional dress">
+      <div class="container page-hero__content">
+        <span class="eyebrow">Experience concepts</span>
+        <h1>Tours</h1>
+        <p>Explore the four tour families at the heart of PanaRoots. Images, hosts, dates, duration and prices remain open until each experience is officially confirmed.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Find your route</span>
+            <h2>Start with an interest, then confirm the details.</h2>
+          </div>
+          <p>Nothing on this page is presented as a scheduled departure. Each card is a supported concept derived from the PanaRoots pitch and presentation.</p>
+        </div>
+
+        <form class="tour-toolbar" data-tour-filters aria-label="Filter tour concepts">
+          <div class="field">
+            <label for="tour-category">Experience type</label>
+            <select id="tour-category" name="category">
+              <option value="">All experience types</option>
+              <option value="crafts">Craft workshops</option>
+              <option value="gastronomy">Gastronomic tours</option>
+              <option value="festivities">Festivities and traditions</option>
+              <option value="culture">Cultural tours</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="tour-destination">Destination</label>
+            <select id="tour-destination" name="destination">
+              <option value="">All destinations</option>
+              <option value="panama-city">Panama City</option>
+              <option value="azuero">Azuero Peninsula</option>
+              <option value="boquete">Boquete</option>
+              <option value="bocas">Bocas del Toro</option>
+              <option value="caribbean">Caribbean Coast</option>
+            </select>
+          </div>
+          <p class="result-count" data-tour-count aria-live="polite"></p>
+        </form>
+
+        <div class="tour-grid" id="tour-list">
+          <article class="tour-card" data-tour-card data-category="crafts" data-destinations="azuero panama-city">
+            <div class="tour-card__media">
+              <img src="../assets/media/Tours/1.jpg" alt="Craft workshop in Panama">
+            </div>
+            <div class="tour-card__body">
+              <div class="card-meta"><span>Craft workshop</span><span>Azuero or Panama City</span></div>
+              <h3>Hands of Panama</h3>
+              <p>A guided introduction to Panamanian craftsmanship through ceramics, tembleques or the sombrero pintao, with the final activity determined by the participating maker.</p>
+              <div class="status-note"><strong>Highlights:</strong> Ceramics, tembleques and the sombrero pintao.</div>
+              <div class="button-row" style="margin-top: 20px;">
+                <a class="button" href="contact.html?interest=crafts">Request details</a>
+                <a class="text-link" href="experiences.html#crafts">Learn about the theme</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour-card" data-tour-card data-category="gastronomy" data-destinations="panama-city boquete bocas">
+            <div class="tour-card__media">
+              <img src="../assets/media/Tours/2.jpg" alt="Panamanian gastronomic experience">
+            </div>
+            <div class="tour-card__body">
+              <div class="card-meta"><span>Gastronomic tour</span><span>City, highlands or Caribbean</span></div>
+              <h3>Panama on the Table</h3>
+              <p>A food-led route built around traditional dishes, local ingredients and the cultural influences behind Panama's cuisine. The exact tastings depend on region and host.</p>
+              <div class="status-note"><strong>Highlights:</strong> Regional dishes, local ingredients and the stories behind them.</div>
+              <div class="button-row" style="margin-top: 20px;">
+                <a class="button" href="contact.html?interest=gastronomy">Request details</a>
+                <a class="text-link" href="experiences.html#gastronomy">Learn about the theme</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour-card" data-tour-card data-category="festivities" data-destinations="azuero caribbean">
+            <div class="tour-card__media">
+              <img src="../assets/media/Tours/3.jpg" alt="Traditional celebration in Panama">
+            </div>
+            <div class="tour-card__body">
+              <div class="card-meta">
+                <span>Festivities and traditions</span>
+                <span>Azuero or Caribbean Coast</span>
+              </div>
+              <h3>Living Traditions</h3>
+              <p>A context-first experience connected to a public celebration, parade or traditional expression. Participation is planned around official dates and community guidance.</p>
+              <div class="status-note"><strong>Highlights:</strong> Public celebrations, parades and living traditions.</div>
+              <div class="button-row" style="margin-top: 20px;">
+                <a class="button" href="contact.html?interest=festivities">Request details</a>
+                <a class="text-link" href="calendar.html">Check the calendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tour-card" data-tour-card data-category="culture" data-destinations="panama-city azuero caribbean">
+            <div class="tour-card__media">
+              <img src="../assets/media/Tours/4.jpg" alt="Cultural route in Panama">
+            </div>
+            <div class="tour-card__body">
+              <div class="card-meta"><span>Cultural tour</span><span>Panama City, Azuero or Caribbean</span></div>
+              <h3>Roots of the Isthmus</h3>
+              <p>A guided route through history, heritage and local perspectives, shaped around museums, historic districts, creative traditions or community-led interpretation.</p>
+              <div class="status-note"><strong>Highlights:</strong> Historic places, local heritage and community perspectives.</div>
+              <div class="button-row" style="margin-top: 20px;">
+                <a class="button" href="contact.html?interest=culture">Request details</a>
+                <a class="text-link" href="experiences.html#culture">Learn about the theme</a>
+              </div>
+            </div>
+          </article>
+
+          <p class="empty-state" data-tour-empty hidden>No tour concepts match both filters. Try another destination or experience type.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container split-layout">
+        <div class="content-copy">
+          <span class="eyebrow">Clear before booking</span>
+          <h2>What each published tour must confirm.</h2>
+        </div>
+        <div class="principles">
+          <article class="principle"><h3>People and place</h3><p>The host, community, meeting point and cultural context must be named clearly.</p></article>
+          <article class="principle"><h3>Practical details</h3><p>Duration, accessibility, included services, group size and language must be accurate.</p></article>
+          <article class="principle"><h3>Commercial details</h3><p>Price, cancellation terms, availability and payment method must be confirmed before sale.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+  <script src="../data/navigation.js"></script>
+  <script src="../components/header.js"></script>
+  <script src="../components/footer.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

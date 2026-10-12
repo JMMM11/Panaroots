@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact PanaRoots to discuss cultural experiences and travel planning in Panama.">
+  <title>Contact | PanaRoots</title>
+  <link rel="icon" type="image/png" href="../assets/media/favicon.png">
+  <link rel="stylesheet" href="../assets/css/vendor/all.min.css">
+  <link rel="stylesheet" href="../assets/css/panaroots.css">
+</head>
+<body data-page="contact" data-root="../" data-header="solid">
+  <div data-site-header></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <img src="../assets/media/contact/panel.png" alt="Artisan presenting colorful textiles and crafts in Panama">
+      <div class="container page-hero__content">
+        <span class="eyebrow">Start a conversation</span>
+        <h1>Contact</h1>
+        <p>Tell PanaRoots what you want to discover, when you plan to travel and which parts of Panama interest you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="contact-aside">
+          <span class="eyebrow">Plan with context</span>
+          <h2>Share the shape of your trip.</h2>
+          <p>Useful enquiries include travel dates, group size, preferred region, accessibility needs and the cultural themes that matter most to you.</p>
+          <ul class="check-list">
+            <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Destination guidance</li>
+            <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Experience concepts</li>
+            <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Cultural calendar planning</li>
+            <li><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Local partnership enquiries</li>
+          </ul>
+        </aside>
+
+        <form class="contact-form" data-contact-form>
+          <div class="form-grid">
+            <div class="field">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="contact-interest">What are you interested in?</label>
+              <select id="contact-interest" name="interest" required>
+                <option value="">Choose an interest</option>
+                <option value="plan">Plan a cultural visit</option>
+                <option value="crafts">Craft workshops</option>
+                <option value="gastronomy">Gastronomic tours</option>
+                <option value="festivities">Festivities and traditions</option>
+                <option value="culture">Cultural tours</option>
+                <option value="partnership">Local partnership</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="contact-dates">Approximate travel dates</label>
+              <input id="contact-dates" name="travelDates" type="text" placeholder="Example: January 2027">
+            </div>
+            <div class="field">
+              <label for="contact-group">Group size</label>
+              <input id="contact-group" name="groupSize" type="number" min="1" max="50" inputmode="numeric">
+            </div>
+            <div class="field">
+              <label for="contact-region">Preferred region</label>
+              <select id="contact-region" name="region">
+                <option value="">Not sure yet</option>
+                <option value="panama-city">Panama City and the Canal</option>
+                <option value="azuero">Azuero Peninsula</option>
+                <option value="boquete">Boquete and Chiriqui</option>
+                <option value="bocas">Bocas del Toro</option>
+                <option value="caribbean">Caribbean Coast</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="contact-message">What would make this visit meaningful?</label>
+              <textarea id="contact-message" name="message" required></textarea>
+            </div>
+            <div class="field--full">
+              <button class="button" type="submit">Save enquiry <i class="fa-regular fa-floppy-disk" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <h2>Prefer to explore first?</h2>
+        <div class="button-row">
+          <a class="button" href="destinations.html">Browse destinations</a>
+          <a class="button button--light" href="calendar.html">Open the calendar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+  <script src="../data/navigation.js"></script>
+  <script src="../components/header.js"></script>
+  <script src="../components/footer.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>
